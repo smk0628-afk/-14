@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "aimlock",
+  "version": "${version}",
+  "name": "AimLock",
+  "description": "Z key toggles aim lock on the nearest monster or player.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.aimlock.AimLockClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
